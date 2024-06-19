@@ -1,0 +1,107 @@
+body {
+    background-image: url(../images/gradient-background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.common {
+    position: absolute;
+    text-align: center;
+    
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav {
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 57px;
+    color: rgb(0, 0, 0, 0.8)
+}
+
+.header {
+    background-image: url(../images/beach-background.jpg);
+    background-size: cover;
+    top: 57px;
+    left: 0px;
+    right: 0px;
+    height: 298px;
+    align-items: center;
+}
+h1 {
+    color: white;
+    font-size:4em;
+}
+
+.main {
+    top: 355px;
+    left: 0px;
+    right: 0px;
+    bottom: 120px;
+    text-align: left;
+    flex: 1;
+}
+
+.sections {
+    font-size: xx-large;
+    margin-left: 100px;
+}
+p {
+    margin-top: 50px;
+}
+
+h3,h4 {
+    position:absolute;
+    font-weight: normal;
+}
+
+h3 {
+    margin-left: 120px;
+    margin-top: 18px;
+}
+
+h4 {
+    margin-top: 21px;
+    color: rgb(0, 0, 0, 0.4)
+}
+
+.home {
+    margin-left: 300px;
+    color: rgb(0, 0, 0, 0.65)
+}
+
+.about {
+    margin-left: 365px;
+}
+
+.shop {
+    margin-left: 428px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+
+.sub {
+    margin-left: 100px;
+}
+h2, p {
+    position: static;
+    float: none;
+}
+.far {
+    margin-left: 150px;
+}
